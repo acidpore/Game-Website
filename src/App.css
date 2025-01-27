@@ -1,0 +1,34 @@
+.App {
+  min-height: 100vh;
+  background: #0a0a0a;
+  padding: 40px 0;
+}
+
+.header {
+  text-align: center;
+  color: white;
+  font-size: 2.5em;
+  margin-bottom: 50px;
+}
+
+.games-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  justify-items: center;
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.games-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); /* Diperbesar sedikit */
+  justify-items: center;
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  width: 100%;
+  box-sizing: border-box;
+}
